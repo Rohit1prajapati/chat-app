@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.chatapp{
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 1em;
+    border-left: 1px solid white;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(46, 120, 46);
+    border-radius: 1em 1em 0 0;
+
+}
+span{
+    font-size: x-large;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.messageArea{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 4rem;
+    background-color: black;
+}
+.textarea{
+    width: 100%;
+    font-size: 1.2em;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    
+}
+.message{
+    width: 250px;
+    border-radius: 4px;
+    margin-bottom: 35px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    position: relative;
+}
+.incoming{
+    background-color: rgb(61, 61, 146);
+    color: white;
+}
+.outgoining{
+    background-color: rgb(91, 4, 117);
+    color: rgb(250, 140, 5);
+    margin-left: auto;
+
+}
+.message h4{
+    position: absolute;
+    top: -20px;
+    color: white;
+    text-transform: uppercase;
+} 
